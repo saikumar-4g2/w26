@@ -5,7 +5,7 @@
 #define PROJECT_NAME "cafeteria"
 
 /* Prototypes for all the test functions */
-void test_do_avg_rating(void);
+void test_do_cafeteria(void);
 
 
 /* Start of the application test */
@@ -18,7 +18,7 @@ int main() {
 /* Note: Do not edit END */
 
 /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "avg_rating", test_do_avg_rating);
+  CU_add_test(suite, "cafeteria", test_do_cafeteria);
 
 
 
@@ -35,8 +35,8 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-void test_do_avg_rating(void) {
-  CU_ASSERT_EQUAL(4.5,avg_rating(180));
+void test_do_cafeteria(void) {
+  CU_ASSERT_EQUAL(4.5,cafeteria(180));
 
   /* Dummy fail*/
 }
