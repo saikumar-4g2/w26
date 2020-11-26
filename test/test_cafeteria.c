@@ -1,8 +1,8 @@
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
 
-#include <patientanalysis.h>
-#define PROJECT_NAME "patientanalysis"
+#include <cafeteria.h>
+#define PROJECT_NAME "cafeteria"
 
 /* Prototypes for all the test functions */
 void test_do_patientanalysis(void);
