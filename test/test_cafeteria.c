@@ -7,7 +7,7 @@
 #define PROJECT_NAME    "CafeteriaRating"
 
 /* Prototypes for all the test functions */
-void test_mylib(void)
+void test_cafeteria(void)
 //void test_mylib1(void)
 
 /* Start of the application test */
@@ -67,8 +67,8 @@ int main() {
    return avg_rating(total_rating);
   }*/
 
-void test_mylib(void) {
- CU_ASSERT(4.5==avg_rating(180));
+void test_cafeteria(void) {
+ CU_ASSERT(4.5,avg_rating(180));
 
 }
 
