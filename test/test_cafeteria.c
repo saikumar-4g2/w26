@@ -36,7 +36,7 @@ int main() {
 }
 /* Write all the test functions */
 void test_do_avg_rating(void) {
-  CU_ASSERT_EQUAL(1,avg_rating(180));
+  CU_ASSERT_EQUAL(4.5,avg_rating(180));
 
   /* Dummy fail*/
 }
