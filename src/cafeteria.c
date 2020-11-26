@@ -1,5 +1,5 @@
 
-float avg_rating(int total_rating)
+float cafeteria(int total_rating)
 {
 	float average_rating;
 	average_rating=total_rating/40.0;
