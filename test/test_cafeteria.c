@@ -68,7 +68,7 @@ int main() {
   }*/
 
 void test_cafeteria(void) {
- CU_ASSERT(4.5,avg_rating(180));
+ CU_ASSERT_EQUAL(4.5,avg_rating(180));
 
 }
 
