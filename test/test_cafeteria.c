@@ -44,7 +44,7 @@ int main() {
 
 
 
-float overall_rating(int count,...)    //helps to take variable number of arguments
+/*float overall_rating(int count,...)    //helps to take variable number of arguments
 {
     int i=0;
     //int frequency_array[10]={};   //To know the no of students given a particular scale
@@ -65,10 +65,10 @@ float overall_rating(int count,...)    //helps to take variable number of argume
 
     }
    return avg_rating(total_rating);
-  }
+  }*/
 
 void test_mylib(void) {
- CU_ASSERT(4.5==overall_rating(40,3,4,5,6,3,4,5,6,3,4,5,6,3,4,5,6,3,4,5,6,3,4,5,6,3,4,5,6,3,4,5,6,3,4,5,6,3,4,5,6));
+ CU_ASSERT(4.5==avg_rating(180));
 
 }
 
